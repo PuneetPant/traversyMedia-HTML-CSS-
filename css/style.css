@@ -75,12 +75,62 @@ body {
     background: url('../img/section-bg.jpg') no-repeat center/cover;
     padding:10rem 0;
   }
+
+  /* Gift-Card Section */
+  #gift-card{
+    background-color: #fff;
+    color:black;
+    height:100vh;
+  }
+  
+  #gift-card .content{
+    padding-top:30px;
+    float:left;
+  }
+  #gift-card .text-content{
+    text-align:left;
+    /* border-bottom:1px solid black; */
+    float:left;
+    width:45%;
+  }
+  #gift-card img{
+    width:50%;
+    float:left;
+    margin-right:30px;
+  }
+
+  /* Footer Section */
+
+  footer .footer-cols{
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(4,1fr);
+    /* text-decoration: none;
+    list-style: none; */
+    padding: 2rem;
+    text-align: left;
+    font-size:14px;
+  }
+  footer .footer-cols ul{
+    list-style: none;
+    /* font-size:2rem; */
+  }
+  footer .footer-cols ul li:first-child{
+    font-size:1.2rem;
+    margin-bottom:1rem;
+    border-bottom:1px solid #444;
+    padding-bottom:0.5rem;
+  }
+  footer .footer-cols li a{
+    text-decoration: none;
+    color:white;
+  }
   
     /* Utility Classes */
     .btn{
         border-radius: 4px;
         background-color: #fd365e;
-        font-family: "Roboto";
+        /* font-family: "Roboto"; */
         color: white;
         font-size: 15px;
         font-weight: 700;
